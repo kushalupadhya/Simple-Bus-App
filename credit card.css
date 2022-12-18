@@ -1,0 +1,80 @@
+body {
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+.kart {
+    font-size: 35px;
+    font-weight: 650;
+    color: rgb(20, 126, 212);
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.book {
+    margin-top: 15px;
+    font-size: 23px;
+    color: rgb(12, 103, 189)
+}
+
+.div {
+    text-align: center;
+}
+
+.a1,
+.a2,
+.a3,
+.a4,
+.a5,
+.a6,
+.a7 {
+    display: inline-block;
+}
+.atag{
+    text-decoration:none;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap:5px;
+}
+button{
+    margin-bottom:25px;
+    color:rgb(0, 140, 255);
+    height:35px;
+    width:300px;
+    margin-top:40px;
+    border-style:solid;
+    border-width:0.1px;
+    border-color:rgb(0, 183, 255);
+    background-color:white;
+    font-size:18px;
+    border-radius:18px;
+    transition: color 0.70s , background-color 0.70s , border-color 0.70s ;
+   }
+  button:hover{
+    color:white;
+    background-color:rgb(0, 140, 255);
+    border-color:rgb(4, 159, 187);
+  }
+  .a1{
+    margin-right:85px;
+  }
+  .a3{
+    margin-right:30px;
+  }
+  .a5{
+    margin-right:35px;
+  }
+  input{
+    width:207px;
+    height:28px;
+    padding:10px;
+    font-size:16px;
+  }

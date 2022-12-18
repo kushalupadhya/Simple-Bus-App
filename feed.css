@@ -1,0 +1,49 @@
+.kart{
+    font-size:35px;
+    font-weight:650;
+    color:rgb(20, 126, 212);
+    margin-bottom:0px;
+    margin-top:20px;
+  }
+  body{
+    font-family:sans-serif;
+  }
+  a{
+    text-decoration: none;
+  }
+  .bus{
+    margin-top:15px;
+    font-size:23px;
+    color:rgb(12, 103, 189)
+  }
+  .a1{
+    text-align:center;
+  }
+  .hi{
+    padding: 10px;
+    width: 250px;
+  }
+  button{
+    margin-bottom:25px;
+    color:rgb(0, 140, 255);
+    height:35px;
+    width:330px;
+    border-style:solid;
+    border-width:0000000.1px;
+    border-color:rgb(0, 183, 255);
+    background-color:white;
+    font-size:18px;
+    border-radius:18px;
+    transition: color 0.70s , background-color 0.70s , border-color 0.70s ;
+   }
+  button:hover{
+    color:white;
+    background-color:rgb(0, 140, 255);
+    border-color:rgb(4, 159, 187);
+  }
+  .main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap:20px;
+  }
